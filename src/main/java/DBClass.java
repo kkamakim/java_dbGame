@@ -123,7 +123,7 @@ public class DBClass {
                 String att = rs.getString("att");
                 String dam = rs.getString("dam");
                 String hyo = rs.getString("hyo");
-                System.out.println("이름: " + name + "속성:" + att + "데미지:" + dam + "효과 : " + hyo);
+                System.out.println("이름: " + name + "  속성: " + att + "  데미지: " + dam + "  효과: " + hyo);
             }
         } catch (SQLException e) {
             System.out.println("error: " + e);
